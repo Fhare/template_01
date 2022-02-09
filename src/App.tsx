@@ -1,5 +1,9 @@
+import { Home } from "./pages/Home";
+
+import "./styles/global.scss";
+
 export function App() {
   return (
-    <h1>Template one</h1>
+    <Home />
   );
 }
