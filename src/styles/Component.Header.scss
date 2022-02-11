@@ -6,9 +6,10 @@
   ul {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
 
     li a {
+      font-size: 0.9rem;
       font-weight: normal;
     }
   }
@@ -19,18 +20,23 @@
     gap: 1rem;
 
     button:first-child {
-      background: #E5E5E5;
+      background: transparent;
+      border: 1px solid #1b1b1b;
+      color: #1b1b1b;
     }
 
     button:last-child {
       background: tomato;
+      color: #fff;
     }
 
     button {
-      width: 150px;
-      height: 50px;
-      border: 1px solid black;
-      font-weight: normal;
+      border: 0;
+      border-radius: 0.2rem;
+      width: 170px;
+      height: 4rem;
+      font-weight: bold;
+      font-size: 1rem;
       transition: filter 0.2s;
 
       &:hover {

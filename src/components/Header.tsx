@@ -1,12 +1,12 @@
-import "../styles/Header.scss";
+import "../styles/Component.Header.scss";
 
 export function Header() {
   return (
     <div className="header">
       <ul>
         <li><a>Início</a></li>
-        <li><a>Sobre</a></li>
-        <li><a>Trabalhos</a></li>
+        <li><a>Produtos</a></li>
+        <li><a>Clientes</a></li>
         <li><a>Contato</a></li>
       </ul>
 
