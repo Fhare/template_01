@@ -1,14 +1,16 @@
 main {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: calc(100vh - 8rem);
+  text-align: center;
 
-  section {
-    max-width: 600px;
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 8rem);
+    margin-top: 5rem;
+    gap: 1rem;
 
     span {
       font-weight: bold;
@@ -19,29 +21,75 @@ main {
       font-size: 2.7rem;
     }
 
-    p {
-      font-size: 1.15rem;
+    div {
+      display: flex;
+      align-items: center;
+
+      button {
+        width: 80px;
+        height: 40px;
+        border: 0;
+        border-radius: 2rem;
+        background: #1d1d1f;
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-right: 0.6rem;
+        transition: filter 0.2s;
+
+        &:hover {
+          filter: brightness(0.95);
+        }
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+      }
     }
 
-    button {
-      margin-top: 2rem;
-      width: 260px;
-      height: 4rem;
-      border: 0;
-      border-radius: 0.2rem;
-      background: tomato;
-      color: #FFF;
-      font-size: 1.25rem;
-      font-weight: bold;
-      transition: filter .2s;
-
-      &:hover {
-        filter: brightness(0.95);
-      }
+    img {
+      width: 550px;
     }
   }
 
-  img {
-    width: 400px;
+  .description-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #fafafa;
+
+    h1 {
+      font-size: 2.3rem;
+      margin: 4rem 0 10rem;
+    }
+
+    img {
+      width: 270px;
+    }
+
+    tbody {
+      tr {
+        display: flex;
+      }
+
+      h2 {
+        margin-bottom: 5rem;
+      }
+
+      tr td div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        span {
+          margin: 2rem 0.4rem;
+        }
+      }
+    }
   }
 }
