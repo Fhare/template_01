@@ -1,6 +1,6 @@
 import { Home } from "./pages/Home";
 
-import "./styles/_global.scss";
+import "./styles/global.scss";
 
 export function App() {
   return (

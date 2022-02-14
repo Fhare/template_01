@@ -1,6 +1,6 @@
 import { HiOutlineSearch } from "react-icons/hi";
 
-import "../styles/Component.Header.scss";
+import "./styles.scss";
 
 export function Header() {
   return (
