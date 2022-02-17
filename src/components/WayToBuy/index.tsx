@@ -1,16 +1,20 @@
+import "./styles.scss";
+
 export function WayToBuy() {
   return (
     <header>
-      <h2>Onde comprar seu celular?</h2>
+      <h2>Acessórios</h2>
 
       <main>
         <section>
-          <span>Na nossa loja você tem ofertas especiais</span>
-          <h2>Celulares a partir de R$500</h2>
+          <span>Aqui você também encontra acessórios para o seu smartphone</span>
+          <h2>Capinhas, carregadores e mais a partir de R$30</h2>
+        </section>
 
-          <article>
-            <h1>Teste aqui okay</h1>
-          </article>
+        <section className="image_section">
+          <div></div>
+          <div></div>
+          <div></div>
         </section>
       </main>
     </header>
